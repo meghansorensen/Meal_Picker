@@ -1,15 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import SpinningWheel from './SpinningWheel';
+import food_meme from './food_meme.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hungry? 
-        </p>
-        
+        <img src={food_meme} alt="logo" />
+        <div>
+          <SpinningWheel />
+        </div>
       </header>
     </div>
   );
